@@ -21,16 +21,16 @@ if($size=="small"){
 	$costofcoffee=5;
 }
 for ($a = 0; $a < $cup; $a++) {
-	if ($cup == "small") {
+	if ($size == "small") {
 		echo '<img src="cup.jpg"
 		height="110"
 		width="80">';
-	} else if ($cup == "med") {
+	} else if ($size == "med") {
 		echo '<img src="cup.jpg"
 		height="150"
 		width="110">';
 	} 
-	else if ($cup == "large") {
+	else if ($size == "large") {
 		echo '<img src="cup.jpg"
 		height="170"
 		width="110">';
