@@ -1,9 +1,10 @@
 <html>
 	<head>
- <h1 style="color: red;"> THANK YOU FOR YOUR ORDER </h1>
+ <h1 style="color: orange; text-align:center; "> THANK YOU FOR YOUR ORDER </h1>
 	</head>
 
-	<body style="background-color: darkblue;color: red;font-size:2em;">
+	<body style="background-image: url('https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95d09002a.png'); background-repeat: no-repeat;
+   background-size: cover; text-align:center;">
 	<br>
 	<?php
 $cup = $_POST["cup"];
@@ -48,8 +49,8 @@ for ($a = 0; $a < $cup; $a++) {
 	for ($z = 0; $z < $sugar; $z++) {
 		if ($sugar > 1) {
 			echo '<img src="sugar.jpg"
-			height="90"
-			width="70">';
+			height="120"
+			width="80">';
 		}
 	}
 	if ($creams > 1) {
@@ -65,9 +66,11 @@ for ($a = 0; $a < $cup; $a++) {
 		}
 	}echo "<br>";
 }
+
+
 echo  "Cost $" .$costofcoffee*$cup." + tax";
 ?>
 
-
-	</body>
+    </body>
+    
 </html>
